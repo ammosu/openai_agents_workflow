@@ -1,0 +1,19 @@
+.right-panel {
+  width: 250px; /* Adjust width as needed */
+  padding: 15px;
+  border-left: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+  flex-shrink: 0; /* Prevent shrinking */
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+
+.right-panel .description {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #495057;
+  border-bottom: 1px solid #ced4da;
+  padding-bottom: 10px;
+}
+
+/* Styles for property editors will be added later */

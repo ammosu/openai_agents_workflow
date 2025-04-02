@@ -1,0 +1,51 @@
+/* Common styles for custom nodes */
+.custom-node {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  min-width: 200px; /* Ensure nodes have a minimum width */
+}
+
+.custom-node .ant-card-head {
+  padding: 0 12px; /* Adjust padding for smaller header */
+  min-height: 30px; /* Adjust header height */
+  font-size: 1em; /* Adjust title font size */
+}
+
+.custom-node .ant-card-body {
+  padding: 10px; /* Adjust body padding */
+}
+
+.custom-node label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-size: 0.85em;
+  color: #495057;
+}
+
+/* Ensure handles are visible and positioned correctly */
+.react-flow__handle {
+  width: 10px;
+  height: 10px;
+  background: #555;
+  border: 1px solid white;
+  transition: all 0.2s ease;
+}
+
+.react-flow__handle:hover {
+  width: 12px;
+  height: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.react-flow__handle-left { left: -6px; }
+.react-flow__handle-right { right: -6px; }
+.react-flow__handle-top { top: -6px; }
+.react-flow__handle-bottom { bottom: -6px; }
+
+/* 移除特定Handle樣式 */
+
+/* Specific node type background/border if needed beyond the top border */
+.agent-node { background-color: #eaf4ff; }
+.runner-node { background-color: #fdedec; }
+.function-node { background-color: #fef5e7; }

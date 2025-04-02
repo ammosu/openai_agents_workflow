@@ -1,0 +1,24 @@
+.canvas-area {
+  flex-grow: 1; /* Allow canvas to fill remaining space */
+  height: 100%; /* Fill the height of main-content */
+  background-color: #ffffff; /* Or any desired background */
+}
+
+/* Ensure React Flow elements render correctly */
+.react-flow__node {
+  /* Basic node styling, can be overridden by custom nodes */
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  min-width: 150px; /* Example minimum width */
+}
+
+.react-flow__handle {
+  /* Style connection handles */
+  width: 8px;
+  height: 8px;
+  background: #777;
+  border-radius: 50%;
+}

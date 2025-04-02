@@ -1,0 +1,15 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  height: 40px; /* Fixed height, adjust as needed */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.app-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}

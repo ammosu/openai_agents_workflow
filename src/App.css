@@ -1,0 +1,25 @@
+/* Reset basic styles and set full height */
+body, #root, .app-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  overflow: hidden; /* Prevent body scroll */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1; /* Make main content fill remaining height */
+  height: calc(100vh - 60px); /* Adjust based on TopNav height */
+}
+
+/* Remove default Vite styles if not needed */
+/* You can keep or remove the logo styles etc. based on preference */
